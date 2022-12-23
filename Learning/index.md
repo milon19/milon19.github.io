@@ -1,5 +1,5 @@
 # Learning
 
--[ ] Django - Celery
+- [ ] Django - Celery
 
 - [ ] Django - Channel
