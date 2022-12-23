@@ -1,3 +1,3 @@
 # SQL
 
-- [HackerRank](/SQL/HackerRank/index.md)
+- [HackerRank](./HackerRank/index.md)
