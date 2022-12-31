@@ -8,7 +8,7 @@ Make a folder named `djangochannels` and also make a virtual environment and act
 
 - Follow the following script to do it.
 
-```shell script
+```shell
 $ mkdir djangochannels
 $ virtualenv venv
 $ source ./venv/bin/activate
@@ -16,13 +16,13 @@ $ source ./venv/bin/activate
 
 - Install Django
 
-```shell script
+```shell
 $ pip3 install django
 ```
 
 - Run the following command for create a new django project.
 
-```shell script
+```shell
 $ django-admin startproject djangochannels .
 ```
 
@@ -45,7 +45,7 @@ Make a `.gitignore` file and add `/venv`. In case you push your code to vcs
 
 Make sure you’re in the same directory as `manage.py` and type this command:
 
-```shell script
+```shell
 $ python3 manage.py startapp chat
 ```
 
@@ -198,7 +198,7 @@ urlpatterns = [
 
 Let’s verify that the index view works. Run the following command:
 
-```shell script
+```shell
 $ python3 manage.py runserver
 ```
 
@@ -214,7 +214,7 @@ For install channels [see more here](https://channels.readthedocs.io/en/stable/i
 
 To install it run:
 
-```shell script
+```shell
 $ pip3 install -U channels["daphne"]
 ```
 
@@ -270,7 +270,7 @@ ASGI_APPLICATION = "djangochannels.asgi.application"
 
 Let’s ensure that the Channels development server is working correctly. Run the following command:
 
-```shell script
+```shell
 $ python3 manage.py runserver
 ```
 
