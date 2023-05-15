@@ -2,6 +2,8 @@
 
 I am following [Channels official](https://channels.readthedocs.io/en/stable/tutorial/index.html) doc for this part.
 
+# Basic Setup
+
 ## Creating a django project.
 
 Make a folder named `djangochannels` and also make a virtual environment and activate it.
